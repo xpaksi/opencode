@@ -65,6 +65,7 @@ export function createMainWindow(globals: Globals) {
     y: state.y,
     width: state.width,
     height: state.height,
+    autoHideMenuBar: true,
     show: true,
     title: "OpenCode",
     icon: iconPath(),
